@@ -1,21 +1,17 @@
 package com.pro.controllers;
 
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-//both annoations works as same
-//@Component
 @Controller
-public class MomController {
+public class BroController {
 
 	@ResponseBody
 	//handler method
-	@RequestMapping("/sugar")
-	public String giveSugar()
+	@RequestMapping("cricketbat")
+	public String giveCricketBat()
 	{
-		return "Hey,Here is your sugar";
-		
+		return "hey man..this is your cricket bat";
 	}
 }
