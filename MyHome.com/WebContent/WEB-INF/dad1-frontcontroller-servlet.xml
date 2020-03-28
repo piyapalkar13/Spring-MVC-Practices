@@ -10,9 +10,9 @@
 <!-- To activate annotation which we are used-->
 <context:annotation-config/>
 
-<context:component-scan base-package="com.pro.controllers"/>
+<context:component-scan base-package="com.pro.controllers,com.pro.mycafe.controllers"/>
 
-<!--  -->
+<!--It contains information about view pages which we want to renders  -->
 <bean id="vr" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 <property name="prefix" value="/WEB-INF/view/"/>
 <property name="suffix" value=".jsp"/>
