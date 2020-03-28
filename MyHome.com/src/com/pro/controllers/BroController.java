@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class BroController {
 
-	@ResponseBody
+	//@ResponseBody
 	//handler method
 	@RequestMapping("cricketbat")
 	public String giveCricketBat()
 	{
-		return "hey man..this is your cricket bat";
+		return "MRFCricketbat";
 	}
 }
